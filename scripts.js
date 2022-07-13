@@ -1,13 +1,13 @@
-import {generateContent} from "../functions/cards.js";
-import {generateModalPage} from "../functions/modalwindow.js";
-import {getCartDataFromLocalStorage, setCartDataToLocalStorage,getItemsFromLocalStorage, setItemsToLocalStorage} from "../functions/API.js";
-import addItemToCart from "../functions/addItemToCart.js";
-import generateItemsInCart from "../functions/generateItemsInCart.js";
-import generateCart from "../functions/generateCart.js";
-import totalPrice from "../functions/totalPrice.js";
-import itemsCount from "../functions/itemsCount.js";
-import render from "../functions/render.js";
-import filterCategory from "../functions/filterCategory.js";
+import {generateContent} from "./functions/cards.js";
+import {generateModalPage} from "./functions/modalwindow.js";
+import {getCartDataFromLocalStorage, setCartDataToLocalStorage,getItemsFromLocalStorage, setItemsToLocalStorage} from "./functions/API.js";
+import addItemToCart from "./functions/addItemToCart.js";
+import generateItemsInCart from "./functions/generateItemsInCart.js";
+import generateCart from "./functions/generateCart.js";
+import totalPrice from "./functions/totalPrice.js";
+import itemsCount from "./functions/itemsCount.js";
+import render from "./functions/render.js";
+import filterCategory from "./functions/filterCategory.js";
 
 
 
